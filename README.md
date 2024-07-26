@@ -1,7 +1,7 @@
 # growth-crew
 A crewAI based growth team
 
-# how to launch Jupyter Notebooks
+# how to launch Jupyter Notebooks for testing
 `jupyter lab` 
 
 # required dependencies
@@ -11,3 +11,6 @@ A crewAI based growth team
 ## Install the main crewAI package and the tools package
 ## that includes a series of helpful tools for your agents
 `pip install 'crewai[tools]'` 
+
+# Run project
+`python crew.py > output.txt`

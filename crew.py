@@ -45,12 +45,12 @@ task2 = Task(
 task3 = Task(
   description="Write a sequence of outreach emails and phone calls to reach out to the list of potential customers",
   agent=growth_consultant,
-  expected_output="a sequence of highly effective sales pitches that can be sent via emails or text message or voice call script"
+  expected_output="a sequence of highly effective sales pitches that can be sent via emails or text message and voice call script"
 )
 
 crew = Crew(
   agents=[researcher,technologist,growth_consultant],
-  tasks=[task1, task2, task3],
+  tasks=[task1,task2, task3],
   verbose=2,
   process=Process.sequential
 )
