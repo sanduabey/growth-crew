@@ -4,12 +4,11 @@ A crewAI based growth team
 # how to launch Jupyter Notebooks for testing
 `jupyter lab` 
 
-# required dependencies
+# Dependencies
 ## Install the main crewAI package
 `pip install crewai` 
 
-## Install the main crewAI package and the tools package
-## that includes a series of helpful tools for your agents
+## Install the main crewAI package and the tools package that includes a series of helpful tools for your agents
 `pip install 'crewai[tools]'` 
 
 ## Other dependencies
@@ -21,5 +20,5 @@ A crewAI based growth team
 ## Growth Crew
 Conducts market research for growth of a company and writes sales email and sales outreach call scripts.
 
-## LinkedIn Crew
+## LinkedIn Post Crew
 Writes linkedin posts for my linkedin page about LLMs
