@@ -3,17 +3,12 @@ import time
 import os
 
 from pprint import pprint
-
-# from langchain.tools import tool
-# from langchain.agents import load_tools
-
 from crewai_tools import tool
-
-from crewai import Agent, Task, Process, Crew
+# from crewai import Agent, Task, Process, Crew
 import praw.exceptions
 
 #Load GPT-4
-api_key = os.environ.get("OPENAI_API_KEY")
+# api_key = os.environ.get("OPENAI_API_KEY")
 
 
 # @tool("Scrape Reddit content")
